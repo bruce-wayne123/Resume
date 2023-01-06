@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="calculator.css"/>
+    </head>
+    <body>
+        <div id="mainLayout">
+            <div id="resultCell">
+                <label id="resultLabel"></label>
+            </div>
+            <table id="tableLayout">
+                <tr>
+                    <td id="acButton" class="calcCell" onclick="allClear()">
+                        AC
+                    </td>
+                    <td class="calcCell">
+                        +/-
+                    </td>
+                    <td id="percentButton" class="calcCell">
+                        %
+                    </td>
+                    <td id="divideButton" class="calcCell orangeCell">
+                        ÷
+                    </td>
+                </tr>
+                <tr>
+                    <td id="sevenButton" class="calcCell">
+                        7
+                    </td>
+                    <td class="calcCell" onclick="insertDigits(8)">
+                        8
+                    </td>
+                    <td class="calcCell">
+                        9
+                    </td>
+                    <td class="calcCell orangeCell">
+                        X
+                    </td>
+                </tr>
+                <tr>
+                    <td class="calcCell">
+                        4
+                    </td>
+                    <td class="calcCell">
+                        5
+                    </td>
+                    <td class="calcCell">
+                        6
+                    </td>
+                    <td class="calcCell orangeCell">
+                        -
+                    </td>
+                </tr>
+                <tr>
+                    <td class="calcCell">
+                        1
+                    </td>
+                    <td class="calcCell">
+                        2
+                    </td>
+                    <td class="calcCell">
+                        3
+                    </td>
+                    <td class="calcCell orangeCell">
+                        +
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="calcCell">
+                        0
+                    </td>
+                    <td class="calcCell">
+                        .
+                    </td>
+                    <td class="calcCell orangeCell">
+                        =
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="calculator.js"/>
+    </body>
+</html>

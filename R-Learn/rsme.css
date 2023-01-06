@@ -1,0 +1,455 @@
+.body {
+    margin: 0px;
+}
+
+/* Body Header */
+#bodyHeader {
+    height: 65vh;
+    background-image: url(Images/macbook_mouse.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal List styles */
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    font-size: large;
+    font-weight: 500;
+    margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s border-bottom 4s;
+}
+
+.horizontal-list a:hover {
+    color: lightsalmon;
+    border-bottom: 1px solid white;
+
+}
+
+/* Common reusable styles */
+.text-center {
+    text-align: center;
+}
+
+.name {
+    height: 100px;
+    width: 100px;
+}
+
+#my-name {
+
+    color: white;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+
+}
+
+#name-social-container {
+    align-items: center;
+    margin-top: 150px;
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.social-logo {
+    height: 25px;
+    width: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.social-logo:hover {
+
+    /* box-shadow: 0px 0px 6px 4px red; */
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.2);
+}
+
+#aboutContainer {
+    color: gray;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+#profilePic {
+    background-color: white;
+    padding: 2px;
+    margin-top: -15vh;
+    margin-bottom: 5vh;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    align-self: center;
+    box-shadow: 2px 2px lightgrey;
+}
+
+#summary {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.5rem;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 0.5rem;
+}
+
+#skills {
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    padding: 4rem;
+    background-color: #efefef;
+}
+
+.skills-display {
+    padding: 3rem;
+    width: 75%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-progress {
+    height: 30px;
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 0.8rem;
+    background-color: lightgray;
+}
+
+.skill-indicator {
+
+    height: inherit;
+    border-radius: inherit;
+    width: var(--skill-percentage);
+    background-color: var(--skill-color);
+}
+
+.skill-indicator>span {
+
+    color: white;
+    text-align: start;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.portfolio-img {
+    height: 300px;
+    width: 300px;
+    list-style: none;
+    flex: 0 0 33.333333%;
+}
+
+.portfolio-img:hover {
+
+    cursor: pointer;
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+#container {
+    height: auto;
+    border: 2px solid black;
+    background: linear-gradient(to right, #2857a4, #403066 50%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+#contactLabelContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    margin: 40px;
+}
+
+#contactLabel {
+    font-size: 40px;
+}
+
+i {
+    align-self: center;
+}
+
+#contactDetails {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+    margin: 70px;
+    font-size: 15px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    row-gap: 30px;
+}
+
+.contactTextField {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+#getInTouch {
+    width: 25vw;
+}
+
+
+#sendMessageButton {
+    width: 150px;
+    color: white;
+    background-color: transparent;
+    align-self: center;
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+#sendMessageButton:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+#socialContainer {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+
+}
+
+#socialContainer>div {
+    margin-left: 50px;
+}
+
+#socialContainer>div:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+section:target {
+    background-color: cyan;
+}
+
+#workExperienceLabel {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: darkblue;
+    font-size: 25px;
+}
+
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+}
+
+.timeline-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+/* .timeline-box::after {
+    content: '';
+    border-radius: 50%;
+    top: 30%;
+    right: -13%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    position: absolute;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    content: '';
+    border-radius: 50%;
+    top: 30%;
+    right: -12.5%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.timeline-box:nth-child(2n)::after {
+    content: '';
+    border-radius: 50%;
+    top: 30%;
+    left: -9%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+} */
+
+
+.vertical {
+    border-left: 2px dotted red;
+    height: 200px;
+    min-height: 100% !important;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+.timeline-divider {
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed #0096fa6b;
+    top: 10%;
+    left: 50%;
+}
+
+
+
+.timeline-traveller {
+    position: sticky;
+    top: -40%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-img {
+    height: 48%;
+    width: 20%;
+}
+
+.designationDetails {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    row-gap: 5px;
+}
+
+.designationName {
+    color: navy;
+    font-weight: bold;
+    text-align: end;
+}
+
+.companyName {
+    color: orange;
+    text-align: end;
+}
+
+.companyDate {
+    text-align: end;
+}
+
+.heading-label-container {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: navy;
+}
+
+@media screen and (max-width:400px) {
+
+    .timeline-box {
+        left: 12% !important;
+        width: 80%;
+    }
+
+    #summary {
+        margin-right: 2px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #contactDetails {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    #contactForm {
+        width: 60vw;
+        justify-content: center;
+    }
+}

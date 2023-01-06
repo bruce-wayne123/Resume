@@ -1,0 +1,63 @@
+#loginImage {
+
+    height: 30px;
+    width: 30px;
+    align-items: flex-start;
+    color: black;
+}
+
+#line {
+    margin-top: 30px;
+    border-top: 1px solid #bbb;
+}
+
+#blog-link {
+    color: blue;
+    font-weight: 100;
+}
+
+#banner {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#banner>img {
+    height: 40vh;
+    margin: 20px 1px 15px 1px;
+    justify-self: center;
+}
+
+#form {
+    display: flex;
+
+}
+
+#addressDiv {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+
+}
+
+#address {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: stretch;
+}
+
+#currentAddress {
+    align-self: center;
+}
+
+#registrationForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+#registerButton
+{
+    width: 4rem;
+}

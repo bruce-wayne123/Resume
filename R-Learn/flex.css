@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  flex-wrap: nowrap;
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  width: 50px;
+  margin: 10px;
+}
+
+.div {
+  height: 100px;
+  width: 100px;
+
+}
+
+#div1 {
+
+  background-color: aqua;
+  width: 500px;
+  flex-basis: 250px;
+  min-width: 750px;
+
+}
+
+#div2 {
+  background-color: red;
+
+
+}
+
+#div3 {
+  background-color: burlywood;
+
+}
+
+/* 
+Align items - vertical
+Justify - horizontal
+
+*/

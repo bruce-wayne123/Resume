@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="form.css" rel="stylesheet"/>
+        <h2>
+            Already Registered? <span style="text-decoration: underline;">LOGIN</span>
+            now
+        </h2>
+    </head>
+    <body>
+        <form id="loginView">
+            <label>Email</label>
+            <input type="email" placeholder="abc@gmail.com"/>
+            <label>Password</label>
+            <input type="password">
+            <button id="submitbutton" type="submit"><img id="loginImage"
+                    src="https://files.codingninjas.in/cn-logo-dark-9824.svg">Login</button>
+        </form>
+        <hr id="line">
+        <div id="banner">
+            <a id="blog-link" href="form.html">Coding Ninjas Blogs</a>
+            <img src="Images/CodingNinjasBanner.png"/>
+        </div>
+        <hr>
+        <h2 style="text-decoration: underline;">REGISTRATION</h2>
+        <div id="registrationForm">
+            <div id="firstname">
+                <label>First Name : </label>
+                <input type="text"/>
+            </div>
+            <div id="lastname">
+                <label>Last Name : </label>
+                <input type="text"/>
+            </div>
+            <div id="addressDiv">
+                <div id="currentAddress"> Current Address : </div>
+
+                <div id="address">
+                    <div>
+                        Flat No./House No.
+                        <input type="text"/>
+
+                    </div>
+                    <div>
+                        Locality
+                        <input type="text"/>
+                    </div>
+                    <div>
+                        City
+                        <input type="text"/>
+                    </div>
+                </div>
+            </div>
+            <div id="addressForm">
+                <b>Is Current address and Permanent address same?</b>
+                <input  type="radio" name="CurrentAddressSame" value="Yes"> Yes</input>
+                <input  type="radio" name="CurrentAddressSame" value="No"> No</input>
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="text"/>
+            </div>
+            <div>
+                <label>Password : </label>
+                <input type="text"/>
+            </div>
+            <button id="registerButton">Register</button>
+        </div>
+    </body>
+</html>
